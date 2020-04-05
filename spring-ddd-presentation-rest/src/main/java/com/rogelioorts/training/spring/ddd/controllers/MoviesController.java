@@ -38,4 +38,8 @@ public class MoviesController {
 		return movies.stream().map(moviesMapper::map).collect(Collectors.toList());
 	}
 	
+//	@RequestMapping(method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE, path = "find")
+//	public String find() {
+//		return "";
+//	}
 }

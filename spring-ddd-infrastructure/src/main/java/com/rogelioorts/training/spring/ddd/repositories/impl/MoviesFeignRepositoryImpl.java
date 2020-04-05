@@ -22,7 +22,7 @@ public class MoviesFeignRepositoryImpl implements MoviesRepository {
 
 	@Override
 	public List<Movie> findAll() {
-		return repository.getPage().getMovies().stream().map(mapper::map).collect(Collectors.toList());
+		return null;//repository.getPage().getMovies().stream().map(mapper::map).collect(Collectors.toList());
 	}
 
 }
